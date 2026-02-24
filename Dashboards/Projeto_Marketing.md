@@ -2,6 +2,20 @@
 
 Este projeto faz parte do meu portfólio de análise de dados, focado em transformar dados brutos de marketing em insights estratégicos para tomada de decisão.
 
+## 📸 Visualização do Dashboard
+
+### Visão Geral de Campanhas
+![Visão Campanhas](img/Visão%20Campanhas.png)
+
+### Análise de Clientes
+![Visão Cliente](img/Visão%20Cliente.png)
+
+### Comportamento de Compra
+![Visão Comportamento](img/Visão%20Comportamento.png)
+
+### Visão dos Pontos de Venda
+![Visão Comportamento](img/Visão%20Pontos%20de%20Venda.png)
+
 ---
 
 ##  Objetivo do Negócio
