@@ -1,48 +1,46 @@
-# 📊 Dashboard de Performance de Marketing - Data Science Academy
+📊 Dashboard de Performance de Marketing - Data Science Academy
 
-## 🎯 Objetivo do Projeto
-Este projeto foi desenvolvido como parte da formação da **Data Science Academy**. O foco principal foi a análise de grandes volumes de dados de 
-marketing para extrair insights sobre a eficiência de campanhas, comportamento do consumidor e alocação de orçamento.
+🎯 Objetivo do Projeto
+Este projeto foi desenvolvido como parte da formação da Data Science Academy. O objetivo principal foi analisar dados reais de campanhas de marketing para identificar padrões de comportamento, eficiência de canais e o retorno sobre investimento (ROI).
 
-O dashboard responde a perguntas críticas de negócio:
-* Qual o **ROI (Retorno sobre Investimento)** por canal de aquisição?
-* Como a taxa de conversão varia entre diferentes regiões geográficas?
-* Quais períodos do ano apresentam maior engajamento e volume de vendas?
+O dashboard visa responder perguntas de negócio como:
 
----
+Qual canal de marketing gera o maior volume de vendas?
 
-## 🛠️ Tecnologias e competências de Dados
-Como este projeto visa demonstrar habilidades para **Engenharia de Dados**, a estrutura técnica foi priorizada:
+Qual a relação entre o custo de campanha e a conversão por região?
 
-* **Power BI:** Visualização e Storytelling.
-* **Power Query (ETL):** Processamento e limpeza de dados (remoção de duplicatas, tipagem e criação de colunas condicionais).
-* **Modelagem de Dados:** Implementação de esquema **Star Schema** (Fatos e Dimensões) para garantir performance e escalabilidade.
-* **DAX (Data Analysis Expressions):** Criação de medidas inteligentes para KPIs (Ex: % de Conversão, CAC e Receita Acumulada).
+Como as vendas se comportam ao longo do tempo (sazonalidade)?
 
----
+🛠️ Tecnologias e Ferramentas
+Power BI: Criação de dashboards interativos e storytelling de dados.
 
-## 📂 Estrutura do Repositório
-* `/pbix`: Arquivo original do Power BI.
-* `/data`: Base de dados utilizada (arquivos .csv ou .xlsx).
-* `/img`: Capturas de tela do dashboard para visualização rápida.
-* `README.md`: Documentação do projeto.
+Power Query (ETL): Limpeza, transformação e modelagem dos dados brutos.
 
----
+DAX (Data Analysis Expressions): Criação de medidas calculadas para KPIs de negócio.
 
-## 📈 Principais Insights
-* **Eficiência de Canal:** Identificamos que o canal de *Social Media* possui o menor custo por clique, embora o canal de *E-mail Marketing* apresente uma taxa de conversão 15% superior.
-* **Sazonalidade:** Houve um aumento significativo de vendas no final do segundo trimestre, sugerindo uma oportunidade para campanhas antecipadas de "Inverno".
+Modelagem de Dados: Estrutura em Star Schema para otimização de performance.
 
----
+📂 Estrutura do Projeto
+Para garantir a eficiência técnica (foco em Engenharia de Dados), o modelo foi estruturado com:
 
-## 🚀 Como Visualizar
-Você pode interagir com o relatório publicado online através do link abaixo:
+Tabelas Fato: Registros de transações e cliques.
 
-👉 **[Acesse o Dashboard Interativo aqui](https://app.powerbi.com/groups/a1f73a95-3a6c-4549-8c35-c6d3d4b1c12d/reports/1abe0f6d-06e9-44c2-af7e-e84354ddb010/73693c776c4effa740fe?experience=power-bi)**
+Tabelas Dimensão: Calendário, Canais, Regiões e Produtos.
 
----
+Principais KPIs Implementados:
+Total de Vendas: Volume financeiro gerado.
 
-## 👩‍💻 Autora
-**Carolina da Costa** *Estudante de Sistemas de Informação | Data Intern na dti digital* *Foco em Engenharia de Dados e Análise de Dados*
+Taxa de Conversão: Eficiência de cliques em relação a vendas.
 
----
+Custo por Clique (CPC): Eficiência de gastos por canal.
+
+📈 Insights Gerados
+(Dica: Escolha 2 ou 3 coisas que você percebeu olhando para o seu gráfico e escreva aqui. Exemplo:)
+
+O canal Social Media apresentou o menor custo de aquisição, apesar de um ticket médio inferior ao canal E-mail.
+
+Identificamos um pico de vendas na região Sudeste durante o segundo trimestre, sugerindo uma oportunidade de aumento de investimento em ads nesse período.
+
+🚀 Como Visualizar
+Você pode acessar o relatório interativo através do link abaixo:
+👉 Link para o Power BI Online
