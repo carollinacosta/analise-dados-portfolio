@@ -1,0 +1,48 @@
+# 📊 Dashboard de Performance de Marketing - Data Science Academy
+
+## 🎯 Objetivo do Projeto
+Este projeto foi desenvolvido como parte da formação da **Data Science Academy**. O foco principal foi a análise de grandes volumes de dados de 
+marketing para extrair insights sobre a eficiência de campanhas, comportamento do consumidor e alocação de orçamento.
+
+O dashboard responde a perguntas críticas de negócio:
+* Qual o **ROI (Retorno sobre Investimento)** por canal de aquisição?
+* Como a taxa de conversão varia entre diferentes regiões geográficas?
+* Quais períodos do ano apresentam maior engajamento e volume de vendas?
+
+---
+
+## 🛠️ Tecnologias e competências de Dados
+Como este projeto visa demonstrar habilidades para **Engenharia de Dados**, a estrutura técnica foi priorizada:
+
+* **Power BI:** Visualização e Storytelling.
+* **Power Query (ETL):** Processamento e limpeza de dados (remoção de duplicatas, tipagem e criação de colunas condicionais).
+* **Modelagem de Dados:** Implementação de esquema **Star Schema** (Fatos e Dimensões) para garantir performance e escalabilidade.
+* **DAX (Data Analysis Expressions):** Criação de medidas inteligentes para KPIs (Ex: % de Conversão, CAC e Receita Acumulada).
+
+---
+
+## 📂 Estrutura do Repositório
+* `/pbix`: Arquivo original do Power BI.
+* `/data`: Base de dados utilizada (arquivos .csv ou .xlsx).
+* `/img`: Capturas de tela do dashboard para visualização rápida.
+* `README.md`: Documentação do projeto.
+
+---
+
+## 📈 Principais Insights
+* **Eficiência de Canal:** Identificamos que o canal de *Social Media* possui o menor custo por clique, embora o canal de *E-mail Marketing* apresente uma taxa de conversão 15% superior.
+* **Sazonalidade:** Houve um aumento significativo de vendas no final do segundo trimestre, sugerindo uma oportunidade para campanhas antecipadas de "Inverno".
+
+---
+
+## 🚀 Como Visualizar
+Você pode interagir com o relatório publicado online através do link abaixo:
+
+👉 **[Acesse o Dashboard Interativo aqui](https://app.powerbi.com/groups/a1f73a95-3a6c-4549-8c35-c6d3d4b1c12d/reports/1abe0f6d-06e9-44c2-af7e-e84354ddb010/73693c776c4effa740fe?experience=power-bi)**
+
+---
+
+## 👩‍💻 Autora
+**Carolina da Costa** *Estudante de Sistemas de Informação | Data Intern na dti digital* *Foco em Engenharia de Dados e Análise de Dados*
+
+---
